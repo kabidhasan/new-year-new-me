@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap");
 
 * {
   margin: 0px;
@@ -60,7 +60,6 @@ main {
   align-items: center;
 }
 
-
 .failure-title {
   max-width: 300px;
   color: #151414;
@@ -78,9 +77,9 @@ main {
   max-width: 420px;
 }
 
-.failure-list-items{
-    display: flex;
-    align-items: center ;
+.failure-list-items {
+  display: flex;
+  align-items: center;
 }
 
 .failure-list {
@@ -93,21 +92,71 @@ main {
 }
 
 /*Plan section styles*/
-.plans{
-    margin: 100px auto;
-    
+.plans {
+  margin: 100px auto;
 }
-.plan-title{
-    text-align: center;
+.plan-title {
+  text-align: center;
+  color: #151414;
+  font-size: 40px;
+  font-weight: 700;
 }
-.plan-items-container{
-    display: flex;
-    margin: 50px auto;
-    max-width: 1140px;
-    gap: 100px;
-    justify-content: space-around;
+.plan-items-container {
+  display: flex;
+  margin: 50px auto;
+  max-width: 1140px;
+  justify-content: space-around;
 }
 
-.plan-item{
-    text-align: center;
+.plan-item {
+  text-align: center;
+}
+
+.plan-item-img {
+  width: 92.958px;
+  height: 92.958px;
+  flex-shrink: 0;
+}
+.plan-item-title {
+  color: #151414;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 30px auto 16ox auto;
+}
+
+.plan-item-description {
+  color: var(--Dark-03, #737272);
+  font-size: 25px;
+  font-weight: 500;
+}
+
+/*banner bottom styles start*/
+.banner-bottom {
+  margin: 130px 230px;
+  border-radius: 8px;
+  background-image: url("../images/gradient2.png"),url("../images/watch.png") ;
+  background-size: cover, cover;
+  max-width: 1140px;
+}
+
+.banner-bottom-title {
+  max-width: 460px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 60px 0px 0px 64px;
+}
+
+.banner-bottom-btn {
+  border-radius: 5px;
+  background: #fff;
+  width: 160px;
+  height: 64px;
+  flex-shrink: 0;
+  color: #f15b22;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 24px 0px 60px 64px;
+  border: 0px;
 }
