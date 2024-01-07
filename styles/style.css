@@ -160,3 +160,19 @@ main {
   margin: 24px 0px 60px 64px;
   border: 0px;
 }
+
+footer{
+    background: #151414;
+    display: flex;
+}
+
+.footer-column{
+    width: 50%;
+    margin:130px 230px;
+}
+
+
+.subscribe{
+    display: flex;
+    flex-direction: column;
+}
